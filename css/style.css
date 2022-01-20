@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+    letter-spacing: 0.01em;
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    padding-top: 113px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.header {
+    background: url('../img/header-ballon.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 322px;
+}
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-style: 14px;
+    letter-spacing: 0.1em;
+}
+
+.desc-right-items li {
+    list-style-type: square;
+}
+
+.tel {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+}
+
+.description {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.description p, .description li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+    width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 15px;  
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+
+.footer-text p {
+    margin-right: 67px;
+}
